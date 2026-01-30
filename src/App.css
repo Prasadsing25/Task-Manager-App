@@ -1,5 +1,5 @@
 body {
-  background-color: #ffffff;
+  background-color: #061E29;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 20px;
@@ -9,22 +9,33 @@ body {
   text-align: center;
   max-width: 600px; 
   margin: 0 auto;
-  border: 5px solid #e51d1d;
+  margin-top: 2%;
+  border: 5px solid #F3F4F4;
   padding: 20px;
+  background-color: #F3F4F4;
+}
+
+h1 {
+  color: #5F9598;
+  font-size: 50px;
+}
+img {
+  width: 60px;
+  height: 60px;
 }
 
 form {
   display: flex;
   gap: 10px;
   margin-bottom: 30px;
-  width: 100%; 
+  width: 90%; 
 }
 
 form input {
   flex: 1;
   height: 45px;
   padding: 0 15px;
-  border: 2px solid #ddd;
+  border: 2px solid #5F9598;
   border-radius: 8px;
   font-size: 16px;
   transition: border-color 0.3s ease;
@@ -38,7 +49,7 @@ form input:focus {
 form button {
   padding: 0 20px;
   height: 49px;
-  background-color: #4a90e2;
+  background-color: #1D546D;
   color: white;
   border: none;
   border-radius: 8px;
@@ -96,7 +107,8 @@ p {
   font-size: medium;
   font: bold;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 1px;
+  color: #040D12;
 }
 
 .completetodo {
@@ -104,6 +116,7 @@ p {
   color: red;
   background-color: yellow !important;
 }
+
 
 @media (max-width: 480px) {
   body {

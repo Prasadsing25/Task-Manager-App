@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Todo List</h1>
+      <h1><img src='todo.svg' alt='todo'/>&nbsp;&nbsp;Add Your Todo List</h1>
       <form onSubmit={saveTodoList}>
         <input type="text" name='todoname' />
         <button>Save</button>
